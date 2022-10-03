@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  THUROBRAND-OFFI
+  Home
 
 steps:
 - script: echo Hello, world!
