@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  HomeOffice
+  THUROBRAND-OFFI
 
 steps:
 - script: echo Hello, world!
