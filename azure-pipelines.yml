@@ -16,7 +16,7 @@ steps:
 - task: Gradle@3
   inputs:
     gradleWrapperFile: 'gradlew'
-    workingDirectory: 'build'
+    workingDirectory: 'build\lib'
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
