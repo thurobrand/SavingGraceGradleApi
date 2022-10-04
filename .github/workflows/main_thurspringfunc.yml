@@ -37,7 +37,7 @@ jobs:
         id: fa
         with:
           app-name: 'ThurSpringFunc'
-          slot-name: 'Production'
+          slot-name: 'dev'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E6111741DC5241B6A847198E33C130C8 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
