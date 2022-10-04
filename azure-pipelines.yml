@@ -25,6 +25,13 @@ steps:
     gradleWrapperFile: 'gradlew'
     workingDirectory: ''
     tasks: 'jar'
+- task: AzureFunctionApp@1
+  inputs:
+    azureSubscription: 'Resource Group Thurobrand'
+    appType: 'functionApp'
+    appName: 'ThurSpringFunc'
+    package: '$(System.DefaultWorkingDirectory)/**/*.jar'
+    deploymentMethod: 'auto'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: 1.11
