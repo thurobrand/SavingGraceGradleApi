@@ -17,7 +17,7 @@ steps:
   inputs:
     gradleWrapperFile: 'gradlew'
     workingDirectory: 'build\lib'
-    tasks: 'build'
+    tasks: 'build jar'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: 1.11
