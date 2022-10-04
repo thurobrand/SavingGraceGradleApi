@@ -16,7 +16,10 @@ steps:
   inputs:
     versionSpec: '11'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'
+    jdkSourceOption: 'LocalDirectory'
+    jdkFile: 'C:\Users\Thurobrand\agents\OpenJDK11U-jdk_x64_windows_hotspot_11.0.16.1_1.zip'
+    jdkDestinationDirectory: 'C:\Users\Thurobrand\agents\java'
+    cleanDestinationDirectory: true
 - task: Gradle@3
   inputs:
     gradleWrapperFile: 'gradlew'
