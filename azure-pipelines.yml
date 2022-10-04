@@ -29,7 +29,7 @@ steps:
   inputs:
     azureSubscription: 'Resource Group Thurobrand'
     appType: 'functionApp'
-    appName: 'ThurSpringFunc'
+    appName: 'springapithur'
     package: '$(System.DefaultWorkingDirectory)/**/*.jar'
     deploymentMethod: 'auto'
     publishJUnitResults: false
