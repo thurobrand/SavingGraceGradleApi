@@ -20,5 +20,6 @@ steps:
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
+    jdkVersionOption: 1.11
     sonarQubeRunAnalysis: false
     spotBugsAnalysis: false
